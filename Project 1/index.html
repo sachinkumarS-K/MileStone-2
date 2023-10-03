@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&family=Poppins:ital,wght@1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="heading">
+        <h1 class="title">PWSkills Blog</h1>
+        <img src="./assets/plus.png" alt="plus img" class="plusImg" />
+      </header>
+
+      <section class="main">
+        <div class="cardContainer">
+            
+        </div>
+      </section>
+
+      <section class="addForm">
+        <img src="./assets//cut.png" alt="" class="cutBtn">
+        <form class="formCont" onsubmit="formSubmitHandler(event)">
+            <input type="text" id = "blogUrl" placeholder="Enter Blog Post URL : " >
+            <input type="text" id="blogTitle" placeholder = "Enter Blog Title : " >
+            <input type="text" id="blogDesc" placeholder="Enter Blog Description  : " >
+            <textarea style="resize: none;" id="data" placeholder="Write" cols="30" rows="10"></textarea>
+            <button class="addBlog-btn">Add Blog</button>
+        </form>
+      </section>
+      
+      <section class="readSection">
+       
+        <!-- <div class="top-readSection">
+          <div class="read-sectionData">
+            <div  class="read-sectionTitle">
+              PwSkills - 4 Year Residentil Program
+            </div>
+            <div class="read-sectionDesc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus incidunt cum tempore qu
+            </div>
+          </div>
+          <div class="read-sectionImg">
+            <img src="./assets/tree.jpg" alt="">
+          </div>
+        </div>
+        <div class="readSection-down">
+          Loremonsectetur adipisicing elit. Repellendus incidunt cum tempore quae ullaLoremonsectetur adipisicing elit. Repellendus incidunt cum tempore quae ullaLoremonsectetur adipisicing elit. Repellendus incidunt cum tempore quae ulla
+        </div> -->
+      </section>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

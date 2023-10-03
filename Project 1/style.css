@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.plusImg{
+    width: 25px; 
+    transition: all 1s;  
+}
+.title{
+    font-size: 2.3rem;
+}
+.main{
+    width: 100%;
+}
+.cardContainer{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 24px;
+}
+.card{
+    gap: 0.5rem;
+    border: 1px solid black;
+    width: 17.5rem;
+    min-height: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    margin: 0 auto;
+    width: 100%;
+    height: 13rem;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    object-fit: contain;
+    padding: 21px;
+    padding-top: 10px;
+}
+.card button{
+    border: transparent;
+    width: 80%;
+    height: 1.9rem;
+    margin: 10px;
+    background-color: #FFE4E1
+}
+.content{
+    padding-left: 12px;
+}
+.blog-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.addForm{
+    position: absolute;
+    width: 40%;
+    height: 81%;
+    border: 1px solid black;
+    top: 6rem;
+    left: 27rem;
+    border-radius: 34px;
+    background-color: #FAEBD7;
+    display: none;
+}
+
+.formCont{
+    margin-top: 3.6rem;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.7rem;
+    
+}
+.formCont input{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+   font-size: 20px;
+    text-indent: 26px;
+}
+.formCont textarea {
+    width: 80%;
+    height: 32%;
+    border-radius: 10px;
+    font-size: 20px;
+    text-indent: 26px;
+    padding: 20px;
+}
+.addForm img{
+    top: 15px;
+    position: relative;
+    border-color: transparent;
+    width: 30px;
+    right: 46px;
+    float: right;
+}
+.addBlog-btn{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+}
+::placeholder{
+    text-indent: 25px;
+    padding: 15px;
+    font-size: 1.1rem;
+}
+.readSection{
+    width: 94%;
+    height: 76vh;
+    border: 1px solid black;
+    display: none;
+    margin: 1rem auto;
+    border-radius: 15px;
+}
+.top-readSection{
+    border-radius: 15px;
+    width: 95%;
+    height: 37%;
+    background-color: purple;
+    border: 1px solid black;
+    margin: 23px auto;
+    display : flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+}
+.read-sectionImg{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 1px;
+    margin: 11px;
+    margin-right: 25px;
+    background-color: white;
+    box-shadow: 0px 0px 0px 2.61px white;
+    border-color: transparent;
+    border-radius: 29px;
+    overflow: hidden;
+    background-clip: content-box;
+}
+.read-SectionImg img{
+    width: 100%;
+    object-fit: contain;
+    padding: 20px;
+}
+.read-sectionData{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 35rem;
+   
+}
+.arrowIcon{
+    position: absolute;
+    top: 3rem;
+    right: 5rem;
+    width: 2rem;
+}
+.read-sectionTitle{
+    padding: 16px;
+    padding-top: 1px;
+    font-size: 1.7rem;
+}
+.read-sectionDesc{
+    padding: 14px;
+    font-size: 1rem;
+}
+
+.readSection-down{
+    padding: 37px;
+    font-size: 1.2rem;
+}
